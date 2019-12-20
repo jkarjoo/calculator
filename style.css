@@ -1,0 +1,88 @@
+/* Fonts */
+.material-icons { 
+    font-size: 22px;
+}
+
+/* Background */
+body {
+    background-color: #b39d8c;
+}
+
+/* Title*/
+.title {
+    display: flex;
+    justify-content: center;
+    font-size: 60px;
+    font-family: 'Pacifico', cursive;
+    margin-top: 40px;
+    margin-bottom: 30px;
+}
+
+/* Calculator Container */
+.container {
+    justify-content: center;
+    width: 400px;
+    margin: auto;
+    border: 3px solid black;
+    font-family: 'Niramit', sans-serif;
+}
+
+/*Display */
+.input {
+    display: grid;
+    height: 120px;
+    background-color:#292930;
+    font-size: 25px;
+    color: white;
+    border: 1px solid black;
+    text-align: right;
+    padding-right: 5px;
+}
+
+.display {
+    text-align: right;
+    align-self: center;
+    font-size: 35px;
+    color: white;
+}
+
+/* Buttons */
+.buttons {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(5, 1fr);
+}
+.zero {
+    grid-column: 1 / span 2;
+}
+
+.btn {
+    padding: 30px;
+    text-align: center;
+    font-size: 30px;
+    border: 1px solid black;
+}
+
+.top {
+    background-color: #c3c3c3;
+}
+
+.top:hover {
+    background-color: #d4d2d2;
+}
+
+.operator {
+    background-color: orange;
+}
+
+.operator:hover {
+    background-color: #f7c262;
+}
+
+.num, .decimal {
+    background-color: darkgray;
+}
+
+.num:hover, .decimal:hover {
+    background-color: #bbbaba;
+}
