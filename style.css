@@ -71,6 +71,10 @@ body {
     background-color: #d4d2d2;
 }
 
+.top:active {
+    background-color: #ffffff;
+}
+
 .operator {
     background-color: orange;
 }
@@ -79,10 +83,18 @@ body {
     background-color: #f7c262;
 }
 
+.operator:active {
+    background-color: #f5dfba;
+}
+
 .num, .decimal {
     background-color: darkgray;
 }
 
 .num:hover, .decimal:hover {
     background-color: #bbbaba;
+}
+
+.num:active, .decimal:active {
+    background-color: #e0e0e0;
 }
