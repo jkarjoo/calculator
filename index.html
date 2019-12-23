@@ -12,32 +12,34 @@
 </head>
 <body>
 <div class="title">Calculator</div>
-<div class="container">
-    <div class="input">
-        <div class="display">123456789</div>
+<div class="calculator-container">
+    <div class="display-container">
+        <div class="display"></div>
     </div>
     <div class="buttons">
-        <div id="clear" class="btn top">AC</div>
-        <div id="backspace" class="btn top"><i class="material-icons">backspace</i></div>
-        <div id="change-sign" class="btn top">+/-</div>
-        <div id="/" class="btn operator">÷</div>
-        <div id="7" class="btn num">7</div>
-        <div id="8" class="btn num">8</div>
-        <div id="9" class="btn num">9</div>
-        <div id="*" class="btn operator">×</div>
-        <div id="4" class="btn num">4</div>
-        <div id="5" class="btn num">5</div>
-        <div id="6" class="btn num">6</div>
-        <div id="-" class="btn operator">-</div>
-        <div id="1" class="btn num">1</div>
-        <div id="2" class="btn num">2</div>
-        <div id="3" class="btn num">3</div>
-        <div id="+" class="btn operator">+</div>
-        <div id="0" class="btn num zero">0</div>
-        <div id="." class="btn decimal">.</div>
-        <div id="equal" class="btn operator">=</div>
+        <button class="top ac" value="clear">AC</button>
+        <button class="top backspace" value="backspace"><i class="material-icons">backspace</i></button>
+        <button class="top change-sign" value="changeSign">+/-</button>
+        <button class="operator" value="/">÷</button>
+        <button class="num" value="7">7</button>
+        <button class="num" value="8">8</button>
+        <button class="num" value="9">9</button>
+        <button class="operator" value="*">×</button>
+        <button class="num" value="4">4</button>
+        <button class="num" value="5">5</button>
+        <button class="num" value="6">6</button>
+        <button class="operator" value="-">-</button>
+        <button class="num" value="1">1</button>
+        <button class="num" value="2">2</button>
+        <button class="num" value="3">3</button>
+        <button class="operator" value="+">+</button>
+        <button class="num zero" value="0">0</button>
+        <button class="num decimal" value=".">.</button>
+        <button class="operator" value="=">=</button>
     </div>
 </div>
+<footer>
+</footer>
 <script src="script.js"></script>
 </body>
 </html>
