@@ -93,6 +93,7 @@ function changeSign() {
 function updateDisplay() {
     const display = document.querySelector(".display");
     display.textContent = calculator.displayValue;
+    document.activeElement.blur();
 }
 
 updateDisplay();

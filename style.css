@@ -64,10 +64,6 @@ button {
     border: 1px solid black;
 }
 
-button:focus {
-    outline:0 !important;
-}
-
 .top {
     background-color: #c3c3c3;
 }
