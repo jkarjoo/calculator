@@ -5,7 +5,7 @@
 
 /* Background */
 body {
-    background-color: #d4baba;
+    background-color: #eae0d5;
 }
 
 /* Title*/
@@ -61,6 +61,7 @@ button {
     text-align: center;
     font-size: 30px;
     border: 1px solid black;
+    margin: 0;
 }
 
 .top {
