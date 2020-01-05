@@ -126,8 +126,10 @@ buttons.addEventListener("click", (event) => {
         updateDisplay();
         return;
     }
-    inputNumber(target.value);
-    updateDisplay();
+    if (target.classList.contains("num")) {
+        inputNumber(target.value);
+        updateDisplay(); 
+    }
 });
 
 document.addEventListener("keydown", (event) => {
