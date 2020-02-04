@@ -11,6 +11,7 @@ html {
 body {
     background-image: url(https://images.pexels.com/photos/355770/pexels-photo-355770.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260);
     background-position: center;
+    background-repeat: no-repeat;
 }
 
 /* Title*/
@@ -21,11 +22,18 @@ body {
     font-family: 'Pacifico', cursive;
 }
 
+.wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
 /* Calculator Container */
 .calculator-container {
     margin: auto;
     font-family: 'Niramit', sans-serif;
     border: 3px solid black;
+    width: 100%;
 }
 
 /*Calculator Display */
