@@ -30,7 +30,6 @@ body {
 
 /* Calculator Container */
 .calculator-container {
-    margin: auto;
     font-family: 'Niramit', sans-serif;
     border: 3px solid black;
     width: 100%;
@@ -68,7 +67,7 @@ body {
 
 button {
     text-align: center;
-    font-size: 30px;
+    font-size: 22px;
     border: 1px solid black;
     margin: 0;
 }
@@ -122,5 +121,8 @@ footer {
     }
     .buttons {
         height: 450px !important;
+    }
+    button {
+        font-size: 30px;
     }
 }
