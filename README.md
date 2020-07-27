@@ -4,7 +4,7 @@ This is an awesome calculator built with vanilla JS.
 
 > **Home page**
 
-# ![Calculator(images/screenshot.png)
+# ![Calculator](images/screenshot.png)
 
 ## Table of contents
 
