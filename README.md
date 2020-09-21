@@ -15,7 +15,7 @@ This is an awesome calculator built with vanilla JS.
 ## Demo
 
 Here is the working live demo:
-[https://justinkar.github.io/calculator/](https://justinkar.github.io/calculator/).
+[https://jkarjoo.github.io/calculator/](https://jkarjoo.github.io/calculator/).
 
 ## Technologies
 
